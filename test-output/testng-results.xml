@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-16T15:30:11 IST" name="Default Suite" finished-at="2026-06-16T15:30:19 IST" duration-ms="7525">
+    <groups>
+    </groups>
+    <test started-at="2026-06-16T15:30:11 IST" name="MyProject" finished-at="2026-06-16T15:30:19 IST" duration-ms="7525">
+      <class name="test_Class.TC002_Open_Account_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC002_Open_Account_Test@448ff1a8]" started-at="2026-06-16T15:30:11 IST" name="setup" finished-at="2026-06-16T15:30:13 IST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_OpenAccount()[pri:0, instance:test_Class.TC002_Open_Account_Test@448ff1a8]" started-at="2026-06-16T15:30:13 IST" name="verify_OpenAccount" finished-at="2026-06-16T15:30:18 IST" duration-ms="5134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_OpenAccount -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:test_Class.TC002_Open_Account_Test@448ff1a8]" started-at="2026-06-16T15:30:18 IST" name="browser_Close" finished-at="2026-06-16T15:30:19 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- test_Class.TC002_Open_Account_Test -->
+    </test> <!-- MyProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>

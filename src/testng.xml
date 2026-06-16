@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="3">
+    <test name="Regression">
+        <classes>
+            <class name="test_Class.TC001_Add_Customer_Test"/>
+            <class name="test_Class.TC002_Open_Account_Test"/>
+
+        </classes>
+    </test>
+</suite>

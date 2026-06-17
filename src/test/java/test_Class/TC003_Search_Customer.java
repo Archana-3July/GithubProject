@@ -15,6 +15,8 @@ public class TC003_Search_Customer extends BaseClass{
         System.out.println("Bank Manager Login is clicked..");
         Search_Customer SC = new Search_Customer(driver);
         SC.Click_Customer();
+        System.out.println("Clicked on customer..");
+
         SC.Add_Value_Search();
         SC.Click_Search();
     }

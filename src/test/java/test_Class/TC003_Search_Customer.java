@@ -16,8 +16,8 @@ public class TC003_Search_Customer extends BaseClass{
         Search_Customer SC = new Search_Customer(driver);
         SC.Click_Customer();
         System.out.println("Clicked on customer..");
-
         SC.Add_Value_Search();
+        System.out.println("Added value in Search");
         SC.Click_Search();
     }
 }

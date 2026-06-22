@@ -19,7 +19,9 @@ public class TC005_File_Download_Test{
         {
             System.out.println("Download failed");
         }
+        driver.quit();
         }
+
 }
 
 

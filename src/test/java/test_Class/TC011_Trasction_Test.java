@@ -19,6 +19,10 @@ public class TC011_Trasction_Test extends BaseClass {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
         CLT.Click_Transaction();
         System.out.println("Click on Transction");
+        CLT.StartDate();
+        System.out.println("Enter Start Date");
+        CLT.EndDate();
+        System.out.println("Enter End Date");
 
     }
 }

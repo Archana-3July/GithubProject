@@ -14,10 +14,10 @@ public class Add_Customer {
 		//super(driver);
 		PageFactory.initElements(rdriver,this);
 	}
-	
 	@FindBy(xpath="//button[text()='Bank Manager Login']") WebElement BankManagerLogin;
 	@FindBy(xpath="//button[@ng-click='addCust()']")  WebElement AddCustomerMenu;
-	@FindBy(xpath="//input[@ng-model='fName']") WebElement FirstName;
+	//@FindBy(xpath="//input[@ng-model='fName']") WebElement FirstName;
+	@FindBy(xpath="//input[@placeholder='First Name']")  WebElement FirstName;;
 	@FindBy(xpath="//input[@ng-model='lName']") WebElement LastName;
 	@FindBy(xpath="//input[@ng-model='postCd']") WebElement PostCode;
 	@FindBy(xpath="//button[text()='Add Customer']") WebElement AddCustomerButton;
@@ -30,20 +30,19 @@ public class Add_Customer {
 		AddCustomerMenu.click();
 	}
 	
-	public void Add_FirstName(String FName) {
-		FirstName.sendKeys(FName);
+	public void Add_FirstName(String fName) {
+		FirstName.sendKeys(fName);
 	}
 	
-	public void Add_LastName(String LName) {
-		LastName.sendKeys(LName);
+	public void Add_LastName(String lName) {
+		LastName.sendKeys(lName);
 	}
 	
-	public void Add_PostCode(String PCode) {
-		PostCode.sendKeys(PCode);
+	public void Add_PostCode(String pCode) {
+		PostCode.sendKeys(pCode);
 	}
 	
 	public void Click_AddCustomer() {
 		AddCustomerButton.click();
-		
 	}
 }

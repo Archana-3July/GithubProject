@@ -12,6 +12,11 @@ public class BaseClass {
     ReadConfig readConfig=new ReadConfig();
     String url=readConfig.getBaseUrl();
     String Browser=readConfig.getBaseBrowser();
+    String firstName=readConfig.getFirstName();
+    String lastName=readConfig.getLastName();
+    String postCode= readConfig.getPostCode();
+    String customerName= readConfig.getCustomerName();
+    String currency=readConfig.getCurrency();
     public static WebDriver driver;
     @BeforeClass
     public void setup(){

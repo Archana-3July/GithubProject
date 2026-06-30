@@ -3,6 +3,7 @@ package test_Class;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import utilitiges.ReadConfig;
@@ -39,9 +40,10 @@ public class BaseClass {
     public void browser_Close() {
 
         try {
-            if (driver != null) {
-                driver.quit();
-            }
+            if (driver != null)
+                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+            Assert.assertNotNull(driver);
+            driver.quit();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

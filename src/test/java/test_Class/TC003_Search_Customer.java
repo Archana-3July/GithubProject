@@ -5,11 +5,14 @@ import org.testng.annotations.Test;
 import pom_Class.Add_Customer;
 import pom_Class.Search_Customer;
 
+import java.time.Duration;
+
 public class TC003_Search_Customer extends BaseClass{
 
     @Test
     public void verify_Search_Customer() {
         driver.get(url);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
         Add_Customer AC = new Add_Customer(driver);
         AC.Click_BankManagerLogin();
         System.out.println("Bank Manager Login is clicked..");

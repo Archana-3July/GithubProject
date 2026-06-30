@@ -3,12 +3,16 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 //excel file -->workbook -->sheet -->rows -->cell
 public class TC007_Reading_Data_From_Xcel {
-    public static void main(String[] args) throws IOException {
+    @Test
+    public void Read_Data_From_xcel() throws IOException {
         FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\testdata\\Data_Customer.xlsx");
          XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet = workbook.getSheet("Sheet1");

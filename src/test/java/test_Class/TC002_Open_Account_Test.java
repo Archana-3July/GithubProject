@@ -10,12 +10,13 @@ public class TC002_Open_Account_Test extends BaseClass {
 	    public void verify_OpenAccount()
 	    {
 			driver.get(url);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 			Add_Customer AC=new Add_Customer(driver);
 			AC.Click_BankManagerLogin();
 	    	Open_Customer OC=new Open_Customer(driver);
 	    	OC.Click_OpenAccountMenu();
-	    	OC.Select_Customer();
-	    	OC.Select_Currency();
+	    	OC.Select_Customer(customerName);
+	    	OC.Select_Currency(currency);
 			OC.Process_Button();
 	    }
 }

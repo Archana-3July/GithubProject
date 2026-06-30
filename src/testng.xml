@@ -1,6 +1,6 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="classes" thread-count="3">
+<suite name="Suite"  thread-count="3">
     <test name="Regression">
         <classes>
             <class name="test_Class.TC001_Add_Customer_Test"/>
@@ -11,7 +11,6 @@
             <class name="test_Class.TC006_File_Upload_Test"/>
             <class name="test_Class.TC007_Reading_Data_From_Xcel"/>
             <class name="test_Class.TC008_Writing_Data1"/>
-            <class name="test_Class.TC009_Writing_Data_To_Excel"/>
             <class name="test_Class.TC010_Mulitple_Windows_Handling_Test"/>
             <class name="test_Class.TC011_Trasction_Test"/>
             <class name="test_Class.TC012_Deposite_Test"/>

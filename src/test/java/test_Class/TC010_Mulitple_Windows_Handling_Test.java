@@ -1,6 +1,7 @@
 package test_Class;
 
 import org.junit.Assert;
+import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +11,8 @@ import org.openqa.selenium.interactions.Actions;
 import java.time.Duration;
 
 public class TC010_Mulitple_Windows_Handling_Test {
-    public static void main(String[] args) throws InterruptedException {
+    @Test
+    public void  multipleWindowHandle() throws InterruptedException {
         WebDriver driver=new ChromeDriver();
         driver.get("https://bonigarcia.dev/selenium-webdriver-java/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4000));

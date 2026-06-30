@@ -15,14 +15,14 @@ public class Search_Customer {
     }
     @FindBy(xpath="//button[@ng-click='showCust()']")
     WebElement Select_Customer;
-    @FindBy(xpath="//input[@placeholder='Search Customer']")  WebElement Select_Search;
-
+    //@FindBy(xpath="//input[@placeholder='Search Customer']")  WebElement Select_Search;
+    @FindBy(xpath="//input[@ng-model='searchCustomer']") WebElement Select_Search;
     public void Click_Customer() {
         Select_Customer.click();
     }
 
     public void Add_Value_Search(){
-        Select_Search.sendKeys("Hermoine");
+      Select_Search.sendKeys("Hermoine");
     }
 
     public void Click_Search(){

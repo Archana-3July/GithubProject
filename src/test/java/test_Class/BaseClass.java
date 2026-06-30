@@ -34,8 +34,16 @@ public class BaseClass {
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
-    @AfterClass
-    public void browser_Close(){
-        driver.quit();
+
+    @AfterClass(alwaysRun = true)
+    public void browser_Close() {
+
+        try {
+            if (driver != null) {
+                driver.quit();
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

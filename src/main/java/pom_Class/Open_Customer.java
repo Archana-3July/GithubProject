@@ -17,22 +17,22 @@ public class Open_Customer {
      }
      
      @FindBy(xpath="//button[@ng-click='openAccount()']")  WebElement OpenAccountMenu;
-     @FindBy(id="userSelect")  WebElement SelectCustomer;
-     @FindBy(id="currency")    WebElement SelectCurrency;
+     @FindBy(css="#userSelect")  WebElement SelectCustomer;
+     @FindBy(css="#currency")    WebElement SelectCurrency;
      @FindBy(xpath="//button[@type='submit']") WebElement ProcessButton;
      
      public void Click_OpenAccountMenu() {
  		OpenAccountMenu.click();
  	}
      
-     public void Select_Customer() {
+     public void Select_Customer(String Customer_Name) {
     	 Select s=new Select(SelectCustomer);
-	      s.selectByVisibleText("Hermoine Granger");
+	      s.selectByVisibleText(Customer_Name);
      }
      
-     public void Select_Currency() {
+     public void Select_Currency(String Curency) {
     	 Select s1=new Select(SelectCurrency);
-	      s1.selectByVisibleText("Rupee");
+	      s1.selectByVisibleText(Curency);
      }
      
      public void Process_Button() {

@@ -12,7 +12,7 @@ public class TC005_File_Download_Test{
          WebDriver driver=new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
         driver.findElement(By.xpath("//a[text()='File Download']")).click();
-           driver.findElement(By.xpath("//a[text()='sample-upload.txt']")).click();
+           driver.findElement(By.xpath("//a[text()='sample.txt']")).click();
         File file = new File("C:\\Users\\Archana Satpute\\Downloads\\sample-zip-file.zip");
         if(file.exists())
         {

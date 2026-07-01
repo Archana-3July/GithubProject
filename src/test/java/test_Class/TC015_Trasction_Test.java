@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import pom_Class.Customer_Login_Trasction;
 import java.time.Duration;
 
-public class TC011_Trasction_Test extends BaseClass {
+public class TC015_Trasction_Test extends BaseClass {
 
     @Test
     public void verify_Customer_Login_trasnction() {

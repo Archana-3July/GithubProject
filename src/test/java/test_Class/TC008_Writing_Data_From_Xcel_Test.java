@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.time.Duration;
 
 
-public class TC008_Writing_Data1 {
+public class TC008_Writing_Data_From_Xcel_Test {
     WebDriver driver;
     @BeforeMethod
     public void setup(){
@@ -39,7 +39,7 @@ public class TC008_Writing_Data1 {
 //        }
 //    };
          String path="C:\\Users\\Archana Satpute\\IdeaProjects\\MyProject\\testdata\\Data_Customer.xlsx";
-         TC009_Writing_Data_To_Excel WDE=new TC009_Writing_Data_To_Excel(path);
+         Writing_Data_From_Excel WDE=new Writing_Data_From_Excel(path);
          int TotalRows=WDE.getRowCount("Sheet1");
          int TotalCols=WDE.getCellCount("Sheet1",1);
          String loginData[][]=new String[TotalRows][TotalCols];

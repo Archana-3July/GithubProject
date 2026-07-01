@@ -10,11 +10,12 @@
             <class name="test_Class.TC005_File_Download_Test"/>
             <class name="test_Class.TC006_File_Upload_Test"/>
             <class name="test_Class.TC007_Reading_Data_From_Xcel"/>
-            <class name="test_Class.TC008_Writing_Data1"/>
+            <class name="test_Class.TC008_Writing_Data_From_Xcel_Test"/>
+            <class name="test_Class.TC009_Customer_Login_Transaction_Test"/>
             <class name="test_Class.TC010_Mulitple_Windows_Handling_Test"/>
-            <class name="test_Class.TC011_Trasction_Test"/>
             <class name="test_Class.TC012_Deposite_Test"/>
             <class name="test_Class.TC013_WebTable_Test"/>
+            <class name="test_Class.TC014_Customer_Login_Deposit_Test"/>
         </classes>
     </test>
 </suite>

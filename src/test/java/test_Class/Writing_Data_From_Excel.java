@@ -10,11 +10,10 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class TC009_Writing_Data_To_Excel {
+public class Writing_Data_From_Excel {
     public FileInputStream f1;
     public FileOutputStream f0;
     public XSSFWorkbook workbook;
@@ -24,7 +23,7 @@ public class TC009_Writing_Data_To_Excel {
     public CellStyle style;
     String path = null;
 
-    TC009_Writing_Data_To_Excel(String path) {
+    Writing_Data_From_Excel(String path) {
         this.path = path;
     }
 

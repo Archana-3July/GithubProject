@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import java.time.Duration;
 
-public class TC010_Mulitple_Windows_Handling_Test {
+public class TC010_Mulitple_Windows_Handling_Test{
     @Test
     public void  multipleWindowHandle() throws InterruptedException {
         WebDriver driver=new ChromeDriver();

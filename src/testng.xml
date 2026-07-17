@@ -16,6 +16,11 @@
             <class name="test_Class.TC012_Deposite_Test"/>
             <class name="test_Class.TC013_WebTable_Test"/>
             <class name="test_Class.TC014_Customer_Login_Deposit_Test"/>
+            <class name="test_Class.TC016_Assign_Leave_Test"/>
+            <class name="test_Class.TC017_Rotator_Front_Back_Content_Test"/>
+            <class name="test_Class.TC018_3D_Rotator_Test"/>
+             <class name="test_Class.TC019_Spect_MoveToElement_Test"/>
+            <class name="test_Class.TC020_Drag_Image_Test"/>
         </classes>
     </test>
 </suite>

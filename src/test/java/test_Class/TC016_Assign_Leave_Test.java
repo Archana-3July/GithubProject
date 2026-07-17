@@ -15,7 +15,7 @@ public class TC016_Assign_Leave_Test {
     public void assign_Leave() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
         driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
@@ -27,7 +27,7 @@ public class TC016_Assign_Leave_Test {
                 By.xpath("//input[@placeholder='Type for hints...']")));
         employee.sendKeys("John");
         wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//*[text()='john M Anderson']"))).click();
+                By.xpath("//*[text()='John A B']"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//div[contains(@class,'oxd-select-text')]")));
         driver.findElement(By.xpath("//div[contains(@class,'oxd-select-text--after')]")).click();

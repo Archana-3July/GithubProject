@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -16,10 +17,410 @@
           </reporter-output>
         </test-method> <!-- verify_OpenAccount -->
         <test-method is-config="true" signature="browser_Close()[pri:0, instance:test_Class.TC002_Open_Account_Test@448ff1a8]" started-at="2026-06-16T15:30:18 IST" name="browser_Close" finished-at="2026-06-16T15:30:19 IST" duration-ms="546" status="PASS">
+=======
+<testng-results ignored="0" total="24" passed="23" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-17T14:26:37 IST" name="Suite" finished-at="2026-07-17T14:31:51 IST" duration-ms="314125">
+    <groups>
+    </groups>
+    <test started-at="2026-07-17T14:26:37 IST" name="Regression" finished-at="2026-07-17T14:31:51 IST" duration-ms="314125">
+      <class name="test_Class.TC005_File_Download_Test">
+        <test-method signature="File_Download()[pri:0, instance:test_Class.TC005_File_Download_Test@3cfdd820]" started-at="2026-07-17T14:27:58 IST" name="File_Download" finished-at="2026-07-17T14:28:05 IST" duration-ms="6960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- File_Download -->
+      </class> <!-- test_Class.TC005_File_Download_Test -->
+      <class name="test_Class.TC007_Reading_Data_From_Xcel">
+        <test-method signature="Read_Data_From_xcel()[pri:0, instance:test_Class.TC007_Reading_Data_From_Xcel@471a9022]" started-at="2026-07-17T14:28:12 IST" name="Read_Data_From_xcel" finished-at="2026-07-17T14:28:14 IST" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Read_Data_From_xcel -->
+      </class> <!-- test_Class.TC007_Reading_Data_From_Xcel -->
+      <class name="test_Class.TC001_Add_Customer_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC001_Add_Customer_Test@3cce57c7]" started-at="2026-07-17T14:26:37 IST" name="setup" finished-at="2026-07-17T14:26:46 IST" duration-ms="8686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_AddCustomer()[pri:0, instance:test_Class.TC001_Add_Customer_Test@3cce57c7]" started-at="2026-07-17T14:26:46 IST" name="verify_AddCustomer" finished-at="2026-07-17T14:26:50 IST" duration-ms="3995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AddCustomer -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:test_Class.TC001_Add_Customer_Test@3cce57c7]" started-at="2026-07-17T14:26:50 IST" name="browser_Close" finished-at="2026-07-17T14:26:51 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- test_Class.TC001_Add_Customer_Test -->
+      <class name="test_Class.TC003_Search_Customer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC003_Search_Customer@2462cb01]" started-at="2026-07-17T14:26:57 IST" name="setup" finished-at="2026-07-17T14:26:59 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Search_Customer()[pri:0, instance:test_Class.TC003_Search_Customer@2462cb01]" started-at="2026-07-17T14:26:59 IST" name="verify_Search_Customer" finished-at="2026-07-17T14:27:02 IST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Search_Customer -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:test_Class.TC003_Search_Customer@2462cb01]" started-at="2026-07-17T14:27:02 IST" name="browser_Close" finished-at="2026-07-17T14:27:03 IST" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- test_Class.TC003_Search_Customer -->
+      <class name="test_Class.TC014_Customer_Login_Deposit_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC014_Customer_Login_Deposit_Test@6aa8e115]" started-at="2026-07-17T14:28:51 IST" name="setup" finished-at="2026-07-17T14:28:52 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Add_Deposit_Amount()[pri:0, instance:test_Class.TC014_Customer_Login_Deposit_Test@6aa8e115]" started-at="2026-07-17T14:28:52 IST" name="verify_Add_Deposit_Amount" finished-at="2026-07-17T14:28:57 IST" duration-ms="4324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Add_Deposit_Amount -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:test_Class.TC014_Customer_Login_Deposit_Test@6aa8e115]" started-at="2026-07-17T14:28:57 IST" name="browser_Close" finished-at="2026-07-17T14:28:57 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- test_Class.TC014_Customer_Login_Deposit_Test -->
+      <class name="test_Class.TC004_Cross_Browser_Test">
+        <test-method signature="crossBrowserTest(java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC004_Cross_Browser_Test@6b0d80ed]" started-at="2026-07-17T14:27:03 IST" name="crossBrowserTest" data-provider="browserData" finished-at="2026-07-17T14:27:07 IST" duration-ms="3843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+        <test-method signature="crossBrowserTest(java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC004_Cross_Browser_Test@6b0d80ed]" started-at="2026-07-17T14:27:07 IST" name="crossBrowserTest" data-provider="browserData" finished-at="2026-07-17T14:27:11 IST" duration-ms="4058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[133]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+        <test-method signature="crossBrowserTest(java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC004_Cross_Browser_Test@6b0d80ed]" started-at="2026-07-17T14:27:11 IST" name="crossBrowserTest" data-provider="browserData" finished-at="2026-07-17T14:27:34 IST" duration-ms="22965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[140]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+        <test-method signature="crossBrowserTest(java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC004_Cross_Browser_Test@6b0d80ed]" started-at="2026-07-17T14:27:34 IST" name="crossBrowserTest" data-provider="browserData" finished-at="2026-07-17T14:27:45 IST" duration-ms="10935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[139]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+        <test-method signature="crossBrowserTest(java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC004_Cross_Browser_Test@6b0d80ed]" started-at="2026-07-17T14:27:45 IST" name="crossBrowserTest" data-provider="browserData" finished-at="2026-07-17T14:27:55 IST" duration-ms="9814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+        <test-method signature="crossBrowserTest(java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC004_Cross_Browser_Test@6b0d80ed]" started-at="2026-07-17T14:27:55 IST" name="crossBrowserTest" data-provider="browserData" finished-at="2026-07-17T14:27:58 IST" duration-ms="3734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTest -->
+      </class> <!-- test_Class.TC004_Cross_Browser_Test -->
+      <class name="test_Class.TC017_Rotator_Front_Back_Content_Test">
+        <test-method signature="rotator_Front_Back()[pri:0, instance:test_Class.TC017_Rotator_Front_Back_Content_Test@1df8b5b8]" started-at="2026-07-17T14:29:28 IST" name="rotator_Front_Back" finished-at="2026-07-17T14:30:45 IST" duration-ms="76337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rotator_Front_Back -->
+      </class> <!-- test_Class.TC017_Rotator_Front_Back_Content_Test -->
+      <class name="test_Class.TC016_Assign_Leave_Test">
+        <test-method signature="assign_Leave()[pri:0, instance:test_Class.TC016_Assign_Leave_Test@7d94beb9]" started-at="2026-07-17T14:28:57 IST" name="assign_Leave" finished-at="2026-07-17T14:29:28 IST" duration-ms="30927" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=150.0.7871.127)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2c25b1c88ab70f7fb65077a79156f1b, findElement {using=xpath, value=//*[text()='john M Anderson']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.127, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\ARCHAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50424}, goog:processID: 9968, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50424/devtoo..., se:cdpVersion: 150.0.7871.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c25b1c88ab70f7fb65077a79156f1b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=150.0.7871.127)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2c25b1c88ab70f7fb65077a79156f1b, findElement {using=xpath, value=//*[text()='john M Anderson']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.127, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\ARCHAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50424}, goog:processID: 9968, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50424/devtoo..., se:cdpVersion: 150.0.7871.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c25b1c88ab70f7fb65077a79156f1b
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:756)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:749)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+at test_Class.TC016_Assign_Leave_Test.assign_Leave(TC016_Assign_Leave_Test.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assign_Leave -->
+      </class> <!-- test_Class.TC016_Assign_Leave_Test -->
+      <class name="test_Class.TC006_File_Upload_Test">
+        <test-method signature="File_Upload()[pri:0, instance:test_Class.TC006_File_Upload_Test@e25951c]" started-at="2026-07-17T14:28:05 IST" name="File_Upload" finished-at="2026-07-17T14:28:12 IST" duration-ms="6631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- File_Upload -->
+      </class> <!-- test_Class.TC006_File_Upload_Test -->
+      <class name="test_Class.TC009_Customer_Login_Transaction_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC009_Customer_Login_Transaction_Test@30b6ffe0]" started-at="2026-07-17T14:28:30 IST" name="setup" finished-at="2026-07-17T14:28:32 IST" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Customer_Login_trasnction()[pri:0, instance:test_Class.TC009_Customer_Login_Transaction_Test@30b6ffe0]" started-at="2026-07-17T14:28:32 IST" name="verify_Customer_Login_trasnction" finished-at="2026-07-17T14:28:36 IST" duration-ms="4459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Customer_Login_trasnction -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:test_Class.TC009_Customer_Login_Transaction_Test@30b6ffe0]" started-at="2026-07-17T14:28:36 IST" name="browser_Close" finished-at="2026-07-17T14:28:37 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- test_Class.TC009_Customer_Login_Transaction_Test -->
+      <class name="test_Class.TC008_Writing_Data_From_Xcel_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:14 IST" name="setup" finished-at="2026-07-17T14:28:17 IST" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:17 IST" name="loginTest" data-provider="LoginData" finished-at="2026-07-17T14:28:19 IST" duration-ms="1255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Archana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Satpute]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[415110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="Browser_Close()[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:19 IST" name="Browser_Close" finished-at="2026-07-17T14:28:19 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:19 IST" name="setup" finished-at="2026-07-17T14:28:22 IST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:22 IST" name="loginTest" data-provider="LoginData" finished-at="2026-07-17T14:28:24 IST" duration-ms="1776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Archana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jagtap]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[412115]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="Browser_Close()[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:24 IST" name="Browser_Close" finished-at="2026-07-17T14:28:25 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:25 IST" name="setup" finished-at="2026-07-17T14:28:28 IST" duration-ms="3678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:28 IST" name="loginTest" data-provider="LoginData" finished-at="2026-07-17T14:28:30 IST" duration-ms="1279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jyoti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chavan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="Browser_Close()[pri:0, instance:test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb]" started-at="2026-07-17T14:28:30 IST" name="Browser_Close" finished-at="2026-07-17T14:28:30 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+      </class> <!-- test_Class.TC008_Writing_Data_From_Xcel_Test -->
+      <class name="test_Class.TC018_3D_Rotator_Test">
+        <test-method signature="d_card_Rotator()[pri:0, instance:test_Class.TC018_3D_Rotator_Test@7b993c65]" started-at="2026-07-17T14:30:45 IST" name="d_card_Rotator" finished-at="2026-07-17T14:31:08 IST" duration-ms="23614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_card_Rotator -->
+      </class> <!-- test_Class.TC018_3D_Rotator_Test -->
+      <class name="test_Class.TC013_WebTable_Test">
+        <test-method signature="Verify_WebTable()[pri:0, instance:test_Class.TC013_WebTable_Test@48b67364]" started-at="2026-07-17T14:28:44 IST" name="Verify_WebTable" finished-at="2026-07-17T14:28:51 IST" duration-ms="6719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WebTable -->
+      </class> <!-- test_Class.TC013_WebTable_Test -->
+      <class name="test_Class.TC020_Drag_Image_Test">
+        <test-method signature="drag_Image()[pri:0, instance:test_Class.TC020_Drag_Image_Test@7f284218]" started-at="2026-07-17T14:31:24 IST" name="drag_Image" finished-at="2026-07-17T14:31:51 IST" duration-ms="27133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drag_Image -->
+      </class> <!-- test_Class.TC020_Drag_Image_Test -->
+      <class name="test_Class.TC019_Spect_MoveToElement_Test">
+        <test-method signature="spect_oveToElement()[pri:0, instance:test_Class.TC019_Spect_MoveToElement_Test@6f1c29b7]" started-at="2026-07-17T14:31:08 IST" name="spect_oveToElement" finished-at="2026-07-17T14:31:24 IST" duration-ms="15884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spect_oveToElement -->
+      </class> <!-- test_Class.TC019_Spect_MoveToElement_Test -->
+      <class name="test_Class.TC002_Open_Account_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC002_Open_Account_Test@1787f2a0]" started-at="2026-07-17T14:26:51 IST" name="setup" finished-at="2026-07-17T14:26:52 IST" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_OpenAccount()[pri:0, instance:test_Class.TC002_Open_Account_Test@1787f2a0]" started-at="2026-07-17T14:26:52 IST" name="verify_OpenAccount" finished-at="2026-07-17T14:26:57 IST" duration-ms="4506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_OpenAccount -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:test_Class.TC002_Open_Account_Test@1787f2a0]" started-at="2026-07-17T14:26:57 IST" name="browser_Close" finished-at="2026-07-17T14:26:57 IST" duration-ms="631" status="PASS">
+>>>>>>> Stashed changes
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_Close -->
       </class> <!-- test_Class.TC002_Open_Account_Test -->
+<<<<<<< Updated upstream
     </test> <!-- MyProject -->
   </suite> <!-- Default Suite -->
+=======
+      <class name="test_Class.TC012_Deposite_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Class.TC012_Deposite_Test@26adfd2d]" started-at="2026-07-17T14:28:37 IST" name="setup" finished-at="2026-07-17T14:28:38 IST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Deposite_Click()[pri:0, instance:test_Class.TC012_Deposite_Test@26adfd2d]" started-at="2026-07-17T14:28:38 IST" name="Verify_Deposite_Click" finished-at="2026-07-17T14:28:43 IST" duration-ms="5093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Deposite_Click -->
+        <test-method is-config="true" signature="browser_Close()[pri:0, instance:test_Class.TC012_Deposite_Test@26adfd2d]" started-at="2026-07-17T14:28:43 IST" name="browser_Close" finished-at="2026-07-17T14:28:44 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Close -->
+      </class> <!-- test_Class.TC012_Deposite_Test -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+>>>>>>> Stashed changes
 </testng-results>

@@ -55,11 +55,17 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>MyProject</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/1/0</td>
 </tr><tr>
+<<<<<<< Updated upstream:test-output/Default Suite/MyProject.html
 <td>Started on:</td><td>Tue Jun 16 15:30:11 IST 2026</td>
 </tr>
 <tr><td>Total time:</td><td>7 seconds (7525 ms)</td>
+=======
+<td>Started on:</td><td>Fri Jul 17 14:26:37 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>314 seconds (314125 ms)</td>
+>>>>>>> Stashed changes:test-output/Suite/Regression.html
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +73,97 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_Class.TC016_Assign_Leave_Test.assign_Leave()'><b>assign_Leave</b><br>Test class: test_Class.TC016_Assign_Leave_Test</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=150.0.7871.127)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2c25b1c88ab70f7fb65077a79156f1b, findElement {using=xpath, value=//*[text()=&apos;john M Anderson&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.127, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\ARCHAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50424}, goog:processID: 9968, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50424/devtoo..., se:cdpVersion: 150.0.7871.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c25b1c88ab70f7fb65077a79156f1b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:756)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:749)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at test_Class.TC016_Assign_Leave_Test.assign_Leave(TC016_Assign_Leave_Test.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1319921115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1319921115'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=150.0.7871.127)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2c25b1c88ab70f7fb65077a79156f1b, findElement {using=xpath, value=//*[text()=&apos;john M Anderson&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.127, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\ARCHAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50424}, goog:processID: 9968, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50424/devtoo..., se:cdpVersion: 150.0.7871.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c25b1c88ab70f7fb65077a79156f1b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:756)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:749)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at test_Class.TC016_Assign_Leave_Test.assign_Leave(TC016_Assign_Leave_Test.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>30</td>
+<td>test_Class.TC016_Assign_Leave_Test@7d94beb9</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +173,128 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< Updated upstream:test-output/Default Suite/MyProject.html
 <td title='test_Class.TC002_Open_Account_Test.verify_OpenAccount()'><b>verify_OpenAccount</b><br>Test class: test_Class.TC002_Open_Account_Test</td>
+=======
+<td title='test_Class.TC008_Writing_Data_From_Xcel_Test.loginTest()'><b>loginTest</b><br>Test class: test_Class.TC008_Writing_Data_From_Xcel_Test<br>Parameters: Archana, Satpute, 415110</td>
+<td></td>
+<td>1</td>
+<td>test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb</td></tr>
+<tr>
+<td title='test_Class.TC018_3D_Rotator_Test.d_card_Rotator()'><b>d_card_Rotator</b><br>Test class: test_Class.TC018_3D_Rotator_Test</td>
+<td></td>
+<td>23</td>
+<td>test_Class.TC018_3D_Rotator_Test@7b993c65</td></tr>
+<tr>
+<td title='test_Class.TC004_Cross_Browser_Test.crossBrowserTest()'><b>crossBrowserTest</b><br>Test class: test_Class.TC004_Cross_Browser_Test<br>Parameters: firefox, 139</td>
+<td></td>
+<td>10</td>
+<td>test_Class.TC004_Cross_Browser_Test@6b0d80ed</td></tr>
+<tr>
+<td title='test_Class.TC008_Writing_Data_From_Xcel_Test.loginTest()'><b>loginTest</b><br>Test class: test_Class.TC008_Writing_Data_From_Xcel_Test<br>Parameters: Jyoti, Chavan, 411213</td>
+<td></td>
+<td>1</td>
+<td>test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb</td></tr>
+<tr>
+<td title='test_Class.TC004_Cross_Browser_Test.crossBrowserTest()'><b>crossBrowserTest</b><br>Test class: test_Class.TC004_Cross_Browser_Test<br>Parameters: edge, 136</td>
+<td></td>
+<td>3</td>
+<td>test_Class.TC004_Cross_Browser_Test@6b0d80ed</td></tr>
+<tr>
+<td title='test_Class.TC017_Rotator_Front_Back_Content_Test.rotator_Front_Back()'><b>rotator_Front_Back</b><br>Test class: test_Class.TC017_Rotator_Front_Back_Content_Test</td>
+<td></td>
+<td>76</td>
+<td>test_Class.TC017_Rotator_Front_Back_Content_Test@1df8b5b8</td></tr>
+<tr>
+<td title='test_Class.TC004_Cross_Browser_Test.crossBrowserTest()'><b>crossBrowserTest</b><br>Test class: test_Class.TC004_Cross_Browser_Test<br>Parameters: edge, 135</td>
+<td></td>
+<td>9</td>
+<td>test_Class.TC004_Cross_Browser_Test@6b0d80ed</td></tr>
+<tr>
+<td title='test_Class.TC004_Cross_Browser_Test.crossBrowserTest()'><b>crossBrowserTest</b><br>Test class: test_Class.TC004_Cross_Browser_Test<br>Parameters: chrome, 136</td>
+<td></td>
+<td>3</td>
+<td>test_Class.TC004_Cross_Browser_Test@6b0d80ed</td></tr>
+<tr>
+<td title='test_Class.TC007_Reading_Data_From_Xcel.Read_Data_From_xcel()'><b>Read_Data_From_xcel</b><br>Test class: test_Class.TC007_Reading_Data_From_Xcel</td>
+<td></td>
+<td>1</td>
+<td>test_Class.TC007_Reading_Data_From_Xcel@471a9022</td></tr>
+<tr>
+<td title='test_Class.TC013_WebTable_Test.Verify_WebTable()'><b>Verify_WebTable</b><br>Test class: test_Class.TC013_WebTable_Test</td>
+<td></td>
+<td>6</td>
+<td>test_Class.TC013_WebTable_Test@48b67364</td></tr>
+<tr>
+<td title='test_Class.TC019_Spect_MoveToElement_Test.spect_oveToElement()'><b>spect_oveToElement</b><br>Test class: test_Class.TC019_Spect_MoveToElement_Test</td>
+<td></td>
+<td>15</td>
+<td>test_Class.TC019_Spect_MoveToElement_Test@6f1c29b7</td></tr>
+<tr>
+<td title='test_Class.TC020_Drag_Image_Test.drag_Image()'><b>drag_Image</b><br>Test class: test_Class.TC020_Drag_Image_Test</td>
+<td></td>
+<td>27</td>
+<td>test_Class.TC020_Drag_Image_Test@7f284218</td></tr>
+<tr>
+<td title='test_Class.TC003_Search_Customer.verify_Search_Customer()'><b>verify_Search_Customer</b><br>Test class: test_Class.TC003_Search_Customer</td>
+<td></td>
+<td>3</td>
+<td>test_Class.TC003_Search_Customer@2462cb01</td></tr>
+<tr>
+<td title='test_Class.TC001_Add_Customer_Test.verify_AddCustomer()'><b>verify_AddCustomer</b><br>Test class: test_Class.TC001_Add_Customer_Test</td>
+>>>>>>> Stashed changes:test-output/Suite/Regression.html
+<td></td>
+<td>3</td>
+<td>test_Class.TC001_Add_Customer_Test@3cce57c7</td></tr>
+<tr>
+<td title='test_Class.TC005_File_Download_Test.File_Download()'><b>File_Download</b><br>Test class: test_Class.TC005_File_Download_Test</td>
+<td></td>
+<td>6</td>
+<td>test_Class.TC005_File_Download_Test@3cfdd820</td></tr>
+<tr>
+<td title='test_Class.TC004_Cross_Browser_Test.crossBrowserTest()'><b>crossBrowserTest</b><br>Test class: test_Class.TC004_Cross_Browser_Test<br>Parameters: firefox, 140</td>
+<td></td>
+<td>22</td>
+<td>test_Class.TC004_Cross_Browser_Test@6b0d80ed</td></tr>
+<tr>
+<td title='test_Class.TC008_Writing_Data_From_Xcel_Test.loginTest()'><b>loginTest</b><br>Test class: test_Class.TC008_Writing_Data_From_Xcel_Test<br>Parameters: Archana, Jagtap, 412115</td>
+<td></td>
+<td>1</td>
+<td>test_Class.TC008_Writing_Data_From_Xcel_Test@2f666ebb</td></tr>
+<tr>
+<td title='test_Class.TC012_Deposite_Test.Verify_Deposite_Click()'><b>Verify_Deposite_Click</b><br>Test class: test_Class.TC012_Deposite_Test</td>
 <td></td>
 <td>5</td>
+<<<<<<< Updated upstream:test-output/Default Suite/MyProject.html
 <td>test_Class.TC002_Open_Account_Test@448ff1a8</td></tr>
+=======
+<td>test_Class.TC012_Deposite_Test@26adfd2d</td></tr>
+<tr>
+<td title='test_Class.TC004_Cross_Browser_Test.crossBrowserTest()'><b>crossBrowserTest</b><br>Test class: test_Class.TC004_Cross_Browser_Test<br>Parameters: chrome, 133</td>
+<td></td>
+<td>4</td>
+<td>test_Class.TC004_Cross_Browser_Test@6b0d80ed</td></tr>
+<tr>
+<td title='test_Class.TC009_Customer_Login_Transaction_Test.verify_Customer_Login_trasnction()'><b>verify_Customer_Login_trasnction</b><br>Test class: test_Class.TC009_Customer_Login_Transaction_Test</td>
+<td></td>
+<td>4</td>
+<td>test_Class.TC009_Customer_Login_Transaction_Test@30b6ffe0</td></tr>
+<tr>
+<td title='test_Class.TC006_File_Upload_Test.File_Upload()'><b>File_Upload</b><br>Test class: test_Class.TC006_File_Upload_Test</td>
+<td></td>
+<td>6</td>
+<td>test_Class.TC006_File_Upload_Test@e25951c</td></tr>
+<tr>
+<td title='test_Class.TC014_Customer_Login_Deposit_Test.verify_Add_Deposit_Amount()'><b>verify_Add_Deposit_Amount</b><br>Test class: test_Class.TC014_Customer_Login_Deposit_Test</td>
+<td></td>
+<td>4</td>
+<td>test_Class.TC014_Customer_Login_Deposit_Test@6aa8e115</td></tr>
+<tr>
+<td title='test_Class.TC002_Open_Account_Test.verify_OpenAccount()'><b>verify_OpenAccount</b><br>Test class: test_Class.TC002_Open_Account_Test</td>
+<td></td>
+<td>4</td>
+<td>test_Class.TC002_Open_Account_Test@1787f2a0</td></tr>
+>>>>>>> Stashed changes:test-output/Suite/Regression.html
 </table><p>
 </body>
 </html>

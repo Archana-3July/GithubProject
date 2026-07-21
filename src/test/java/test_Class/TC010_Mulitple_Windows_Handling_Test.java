@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+<<<<<<< Updated upstream
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
@@ -15,6 +16,12 @@ import java.util.Set;
 public class TC010_Mulitple_Windows_Handling_Test {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver=new ChromeDriver();
+=======
+public class TC010_Mulitple_Windows_Handling_Test{
+    @Test
+    public void  multipleWindowHandle() throws InterruptedException {
+        WebDriver driver = new ChromeDriver();
+>>>>>>> Stashed changes
         driver.get("https://bonigarcia.dev/selenium-webdriver-java/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4000));
         driver.manage().window().maximize();
@@ -22,7 +29,7 @@ public class TC010_Mulitple_Windows_Handling_Test {
         driver.switchTo().window(MainWindowID);
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[text()='Dropdown menu']")).click();
-        Actions act=new Actions(driver);
+        Actions act = new Actions(driver);
         WebElement UseClickButton = driver.findElement(By.id("my-dropdown-1"));
         act.click(UseClickButton).build().perform();
         Thread.sleep(2000);
@@ -34,15 +41,6 @@ public class TC010_Mulitple_Windows_Handling_Test {
         driver.switchTo().window(MainWindowID);
         Thread.sleep(2000);
         driver.quit();
-
+    }
     }
 
-
-
-
-
-
-
-
-
-}

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class TC21_Hover_Tooltip_Test {
+public class TC021_Hover_Tooltip_Test {
     @Test
     public void hover_tooltip() throws InterruptedException {
         WebDriver driver = new ChromeDriver();

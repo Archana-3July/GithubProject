@@ -27,7 +27,7 @@ public class TC020_Drag_Image_Test {
             Thread.sleep(300);
         }
         driver.quit();
-   }git
+   }
 
 }
 

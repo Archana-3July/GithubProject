@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10847","registration_store_excel","Default Suite","2026-07-22","passed","2026-07-22","test_Class.TC015_Registration_Store_Excel_test","MyProject","test_Class.TC015_Registration_Store_Excel_test","registration_store_excel"
+"","1262","loginTest","Default Suite","2026-07-22","passed","2026-07-22","test_Class.TC008_Writing_Data_From_Xcel_Test","MyProject","test_Class.TC008_Writing_Data_From_Xcel_Test","loginTest"
+"","922","loginTest","Default Suite","2026-07-22","passed","2026-07-22","test_Class.TC008_Writing_Data_From_Xcel_Test","MyProject","test_Class.TC008_Writing_Data_From_Xcel_Test","loginTest"
+"","1163","loginTest","Default Suite","2026-07-22","passed","2026-07-22","test_Class.TC008_Writing_Data_From_Xcel_Test","MyProject","test_Class.TC008_Writing_Data_From_Xcel_Test","loginTest"

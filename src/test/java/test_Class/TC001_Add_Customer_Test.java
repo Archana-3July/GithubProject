@@ -1,8 +1,6 @@
 package test_Class;
 import org.testng.annotations.Test;
-
- import pom_Class.Add_Customer;
-
+import pom_Class.Add_Customer;
 import java.time.Duration;
 
 public class TC001_Add_Customer_Test extends BaseClass{

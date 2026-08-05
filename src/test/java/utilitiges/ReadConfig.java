@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ReadConfig {
 
     Properties properties;
-    String path="C:\\Users\\Archana Satpute\\IdeaProjects\\MyProject\\src\\configurator\\config.property";
+    String path="C:\\Users\\Archana Satpute\\IdeaProjects\\GithubProject\\src\\configurator\\config.property";
 
     private Object value2;
 

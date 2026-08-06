@@ -22,7 +22,7 @@ public class TC008_Writing_Data_From_Xcel_Test {
 
     @Test(dataProvider = "LoginData")
     public void loginTest(String fname,String lname,String pin){
-        driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/?utm_source=chatgpt.com#/manager/addCust");
+       // driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/?utm_source=chatgpt.com#/manager/addCust");
         WebElement FName = driver.findElement(By.xpath("//input[@ng-model='fName']"));
         FName.sendKeys(fname);
         WebElement LName = driver.findElement(By.xpath("//input[@ng-model='lName']"));

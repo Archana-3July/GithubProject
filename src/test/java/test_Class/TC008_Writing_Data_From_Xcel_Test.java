@@ -38,6 +38,7 @@ public class TC008_Writing_Data_From_Xcel_Test {
 //            "Archana", "Satpute", "415110"
 //        }
 //    };
+
          String path="C:\\Users\\Archana Satpute\\IdeaProjects\\GithubProject\\testdata\\Data_Customer.xlsx";
          Writing_Data_From_Excel WDE=new Writing_Data_From_Excel(path);
          int TotalRows=WDE.getRowCount("Sheet1");

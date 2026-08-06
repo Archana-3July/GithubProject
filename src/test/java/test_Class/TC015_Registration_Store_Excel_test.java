@@ -57,7 +57,10 @@ public class TC015_Registration_Store_Excel_test {
             if (Gender.equalsIgnoreCase("Female")) {
                 driver.findElement(By.xpath("//input[@value='FeMale']")).click();
             } else {
-                driver.findElement(By.xpath("//input[@value='Male']")).click();
+                WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+                WebElement male=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Male']")));
+                male.click();
+                //driver.findElement(By.xpath("//input[@value='Male']")).click();
             }
             if (Hobbies.equalsIgnoreCase("Cricket")) {
                 driver.findElement(By.id("checkbox1")).click();

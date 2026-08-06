@@ -27,7 +27,7 @@ public class TC016_Assign_Leave_Test {
                 By.xpath("//input[@placeholder='Type for hints...']")));
         employee.sendKeys("John");
         wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//*[text()='John A B']"))).click();
+                By.xpath("//*[text()='John  Doe']"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//div[contains(@class,'oxd-select-text')]")));
         driver.findElement(By.xpath("//div[contains(@class,'oxd-select-text--after')]")).click();

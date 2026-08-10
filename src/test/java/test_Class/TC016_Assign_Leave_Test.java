@@ -25,9 +25,9 @@ public class TC016_Assign_Leave_Test {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement employee = wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//input[@placeholder='Type for hints...']")));
-        employee.sendKeys("John");
+        employee.sendKeys("B");
         wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//*[text()='John  Doe']"))).click();
+                By.xpath("//*[text()='Ravi M B']"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//div[contains(@class,'oxd-select-text')]")));
         driver.findElement(By.xpath("//div[contains(@class,'oxd-select-text--after')]")).click();

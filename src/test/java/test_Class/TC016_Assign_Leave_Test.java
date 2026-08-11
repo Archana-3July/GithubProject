@@ -25,7 +25,7 @@ public class TC016_Assign_Leave_Test {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement employee = wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//input[@placeholder='Type for hints...']")));
-        employee.sendKeys("B");
+        employee.sendKeys("Ravi");
         wait.until(ExpectedConditions.elementToBeClickable(
                 By.xpath("//*[text()='Ravi M B']"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(

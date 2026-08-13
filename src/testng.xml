@@ -27,6 +27,7 @@
             <class name="test_Class.TC022_ResizablePractice_Test"/>
             <class name="test_Class.TC023_Customer_Login_Successfull_Test"/>
             <class name="test_Class.TC024_Customer_Login_Withdrawl"/>
+            <class name="test_Class.TC025_Logout_Customer_Test"/>
         </classes>
     </test>
 </suite>

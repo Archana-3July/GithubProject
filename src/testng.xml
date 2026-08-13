@@ -28,6 +28,7 @@
             <class name="test_Class.TC023_Customer_Login_Successfull_Test"/>
             <class name="test_Class.TC024_Customer_Login_Withdrawl"/>
             <class name="test_Class.TC025_Logout_Customer_Test"/>
+            <class name="test_Class.TC026_Customer_List_Account_Test"/>
         </classes>
     </test>
 </suite>

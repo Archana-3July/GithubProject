@@ -14,5 +14,6 @@ public class TC014_Customer_Login_Deposit_Test extends BaseClass{
         CLD.Click_Deposit_Menu();
         CLD.Add_Amount_Deposite();
         CLD.Click_Deposit_Submit();
+        System.out.println("Deposit Successfully");
     }
 }

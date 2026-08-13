@@ -1,8 +1,11 @@
 package test_Class;
 
 import org.testng.annotations.Test;
+import pom_Class.Customer_Login;
 import pom_Class.Customer_Login_Trasction;
 import java.time.Duration;
+
+
 
 public class TC009_Customer_Login_Transaction_Test extends BaseClass {
 
@@ -10,13 +13,14 @@ public class TC009_Customer_Login_Transaction_Test extends BaseClass {
     public void verify_Customer_Login_trasnction() {
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
-        Customer_Login_Trasction CLT = new Customer_Login_Trasction(driver);
-        CLT.Click_Customer_Login();
+        Customer_Login CL1 = new Customer_Login(driver);
+        CL1.Click_Customer_Login();
         System.out.println("Login successfully..");
-        CLT.Select_User_Name();
-        CLT.Click_Submit();
+        CL1.Select_User_Name();
+        CL1.Click_Submit();
         System.out.println("Select User");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
+        Customer_Login_Trasction  CLT =new Customer_Login_Trasction(driver);
         CLT.Click_Transaction();
         System.out.println("Click on Transction");
         CLT.StartDate();

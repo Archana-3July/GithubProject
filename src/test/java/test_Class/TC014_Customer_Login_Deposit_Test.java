@@ -6,7 +6,7 @@ public class TC014_Customer_Login_Deposit_Test extends BaseClass{
     @Test
     public void verify_Add_Deposit_Amount(){
         driver.get(url);
-        Customer_Login_Trasction CLT=new Customer_Login_Trasction(driver);
+        Customer_Login CLT=new Customer_Login(driver);
         CLT.Click_Customer_Login();
         CLT.Select_User_Name();
         CLT.Click_Submit();

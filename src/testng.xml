@@ -31,6 +31,7 @@
             <class name="test_Class.TC026_Customer_List_Account_Test"/>
             <class name="test_Class.TC027_Scroll_Left_Right_Transction_Test"/>
             <class name="test_Class.TC028_Delete_Customer_BankManager_Test"/>
+            <class name="test_Class.TC029_SortCustomer_FirstName_LastName_PostCode"/>
         </classes>
     </test>
 </suite>

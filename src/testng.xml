@@ -21,7 +21,7 @@
             <class name="test_Class.TC016_Assign_Leave_Test"/>
             <class name="test_Class.TC017_Rotator_Front_Back_Content_Test"/>
             <class name="test_Class.TC018_3D_Rotator_Test"/>
-             <class name="test_Class.TC019_Spect_MoveToElement_Test"/>
+            <class name="test_Class.TC019_Spect_MoveToElement_Test"/>
             <class name="test_Class.TC020_Drag_Image_Test"/>
             <class name="test_Class.TC021_Hover_Tooltip_Test"/>
             <class name="test_Class.TC022_ResizablePractice_Test"/>
